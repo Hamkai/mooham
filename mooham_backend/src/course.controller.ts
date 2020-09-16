@@ -5,6 +5,6 @@ export class coursecontroller {
 
   @Get('hello')
   getHello():string {
-    return 'need';
+    return 'moohamkub';
   }
 }
