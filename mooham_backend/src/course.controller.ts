@@ -3,8 +3,10 @@ import { Controller, Get } from '@nestjs/common';
 @Controller('course')
 export class coursecontroller {
 
-  @Get('hello')
-  getHello():string {
-    return 'moohamkub';
+  @Get()
+  findall():any {
+    return {
+      message:'good morning'
+    };
   }
 }
